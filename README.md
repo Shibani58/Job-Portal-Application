@@ -3,6 +3,8 @@
 A **full-stack job portal** built with **Spring Boot**, **Spring Security** and **Thymeleaf** that connects **recruiters** and **job seekers**.
 Recruiters post jobs and track applicants; candidates search, apply for and save jobs, all in one place.
 
+**🌐 Live demo: [shibani-job-portal.onrender.com](https://shibani-job-portal.onrender.com)**
+
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Shibani58/Job-Portal-Application)
 
 ---
