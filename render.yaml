@@ -1,0 +1,12 @@
+# Render Blueprint: deploys the live demo (Docker, free plan).
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: shibani-job-portal
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: demo
